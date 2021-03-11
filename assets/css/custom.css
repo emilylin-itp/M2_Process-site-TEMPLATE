@@ -5,16 +5,16 @@
 
 /* If you want to add a background image to the home page banner instead of using a solid color.
 Just un comment the #banner rule below. */
-/* #banner {
-  background-image: url(../../images/testpic01.jpg);
+#banner {
+  background-color: plum;
+  /* background-image: url(../../images/testpic01.jpg); */
   background-size: cover;
   color: rgba(255, 255, 255, 0.75);
   text-shadow: 1px 1px 15px #333;
   text-align: center;
   cursor: default;
   padding: 10em 4em 9em 4em;
-} */
-
+} 
 
 
 /* If you want to change the banner button color. The following two css rules use a class called "redbtn".
@@ -34,3 +34,28 @@ added to the button in the index html file as well.*/
 /*********************************************
  Write your css customizations below
  *********************************************/
+
+ .h2-text{
+   color: plum;
+   font-family: 'Akaya Telivigala', cursive;
+ }
+
+ .image-shadow{
+   box-shadow: 1px 1px 15px plum;
+ }
+
+ .image-outline{
+   border: 3px solid plum;
+ }
+
+
+
+ /* .h3-color{
+   color: plum;
+   font-family: 'Shippori Mincho B1', serif;
+ }
+ 
+ .image-outline{
+   border: 1px solid gray;
+   box-shadow: 1px 100px 5px grey;
+ } */
