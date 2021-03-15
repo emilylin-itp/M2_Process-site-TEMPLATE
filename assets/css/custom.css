@@ -7,10 +7,10 @@
 Just un comment the #banner rule below. */
 #banner {
   background-color: plum;
-  /* background-image: url(../../images/testpic01.jpg); */
+  /* background-image: url(../../images/pic11.jpg); */
   background-size: cover;
   color: rgba(255, 255, 255, 0.75);
-  text-shadow: 1px 1px 15px #333;
+  /* text-shadow: 1px 1px 15px #333; */
   text-align: center;
   cursor: default;
   padding: 10em 4em 9em 4em;
@@ -20,14 +20,15 @@ Just un comment the #banner rule below. */
 /* If you want to change the banner button color. The following two css rules use a class called "redbtn".
 You can call the class whatever you want, but in order for it to work, it needs to be
 added to the button in the index html file as well.*/
-/* #banner .button.redbtn {
-  background-color: rgba(188, 46, 26, 1);
+#banner .button.redbtn {
+  background-color: rgba(5, 25, 26, 1);
+  border: none;
   box-shadow: none;
 }
 
 #banner .button.redbtn:hover {
-  background-color: rgba(188, 46, 26, .8);
-} */
+  background-color: rgba(5, 246, 226, .8);
+}
 
 
 
@@ -35,10 +36,6 @@ added to the button in the index html file as well.*/
  Write your css customizations below
  *********************************************/
 
- .h2-text{
-   color: plum;
-   font-family: 'Akaya Telivigala', cursive;
- }
 
  .image-shadow{
    box-shadow: 1px 1px 15px plum;
@@ -48,14 +45,14 @@ added to the button in the index html file as well.*/
    border: 3px solid plum;
  }
 
-
-
- /* .h3-color{
-   color: plum;
-   font-family: 'Shippori Mincho B1', serif;
+ p{
+   font-family: 'Courier New', Courier, monospace
  }
- 
- .image-outline{
-   border: 1px solid gray;
-   box-shadow: 1px 100px 5px grey;
- } */
+
+ h1, h2, h3, h4, h5{
+   font-family: Helvetica, sans-serif;
+ }
+
+ .post .content{
+   text-align: left;
+ }
