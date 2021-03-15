@@ -37,22 +37,28 @@ added to the button in the index html file as well.*/
  *********************************************/
 
 
- .image-shadow{
-   box-shadow: 1px 1px 15px plum;
- }
-
- .image-outline{
-   border: 3px solid plum;
- }
-
- p{
-   font-family: 'Courier New', Courier, monospace
- }
-
- h1, h2, h3, h4, h5{
+/* Changes all header text to be Helvetica */
+h1, h2, h3, h4, h5{
    font-family: Helvetica, sans-serif;
- }
+}
 
+/* Changes all paragraph text to be Courier */
+p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* Changes the homepage text to all be left aligned */
  .post .content{
    text-align: left;
  }
+
+/* This class adds a gray shadow behind the image*/
+.image-shadow{
+  box-shadow: 1px 1px 15px grey;
+}
+
+/* This class adds a gray outline around the image */
+.image-outline{
+  border: 1px solid grey;
+}
